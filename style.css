@@ -1,0 +1,197 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.01rem;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 auto;
+}
+
+nav {
+    height: 70px;
+}
+
+hr {
+    border-top: 1px solid #f1f1f1;
+}
+
+.navTitle {
+    font-size: 5.5em;
+}
+
+.nav-subtitle {
+    font-size: 1.5em;
+}
+
+.textDecoration-blog {
+    text-decoration: none;
+    color: #ae1f1fff;
+}
+.textDecoration {
+    text-decoration: none;
+    color: #000;
+}
+
+.footerText {
+    font-size: 0.8em;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 7px
+}
+
+.twitter {
+    height: 60px;
+    width: 60px;
+}
+
+.github {
+    height: 60px;
+    width: 60px;
+}
+
+a:hover {
+    color: #215FA3;
+    text-decoration: none;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+
+.copyright {
+    color: #215FA3;
+}
+
+.navTitle {
+    font-size: 30px;
+    font-weight: 600;
+}
+@media screen and (min-width: 800px) {
+
+    body,
+    html {
+        font-size: 22px;
+    }
+
+    .navMain {
+        display: flex;
+        float: left;
+        margin-left: 5%;
+        margin-top: 22px;
+        justify-content: center;
+    }
+
+    .navSub {
+        display: flex;
+        float: right;
+        margin-right: 5%;
+        justify-content: center;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .mainContainer {
+        margin: auto;
+        width: 50%;
+        justify-content: center;
+        width: 800px;
+        padding-top: 5%;
+    }
+
+    .container {
+        display: block;
+        text-align: left;
+    }
+
+    .date {
+        display: block;
+        font-size: 0.8em;
+        color: #999999;
+        font-weight: 400;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .content {
+        display: contents;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    body,
+    html {
+        font-size: 19px;
+    }
+
+    .navMain {
+        display: flex;
+        float: left;
+        margin-left: 20px;
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .navTitle {
+        font-size: 1.8em;
+        font-weight: 600;
+        line-height: 1.2;
+    }
+
+    .onlyDesktop {
+        display: none;
+    }
+
+    .mainContainer {
+        margin: 20px;
+        width: 50%;
+        justify-content: center;
+        width: auto;
+        padding-top: 5%;
+    }
+
+    .container {
+        display: block;
+        text-align: left;
+    }
+
+    .date {
+        display: block;
+        font-size: 0.8em;
+        color: #999999;
+        font-weight: 400;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        font-weight: 600;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .content {
+        display: contents;
+    }
+
+    footer {
+        text-align: center;
+        padding: 12px
+    }
+}
