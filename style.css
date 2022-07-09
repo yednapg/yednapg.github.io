@@ -20,14 +20,6 @@ hr {
     font-size: 5.5em;
 }
 
-.nav-subtitle {
-    font-size: 1.5em;
-}
-
-.textDecoration-blog {
-    text-decoration: none;
-    color: #ae1f1fff;
-}
 .textDecoration {
     text-decoration: none;
     color: #000;
@@ -71,6 +63,11 @@ a:hover {
     font-size: 30px;
     font-weight: 600;
 }
+
+img{
+    height: 100%;
+    width: 100%;
+}
 @media screen and (min-width: 800px) {
 
     body,
@@ -102,7 +99,7 @@ a:hover {
         width: 50%;
         justify-content: center;
         width: 800px;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     .container {
@@ -145,12 +142,19 @@ a:hover {
         display: flex;
         float: left;
         margin-left: 20px;
-        margin-top: 15px;
+        margin-top: 25px;
         justify-content: center;
+    }
+    .navSub {
+        display: flex;
+        float: right;
+        justify-content: center;
+        margin-right: 50px;
+        margin-top: 7px;
     }
 
     .navTitle {
-        font-size: 1.8em;
+        font-size: 1.4em;
         font-weight: 600;
         line-height: 1.2;
     }
@@ -164,7 +168,7 @@ a:hover {
         width: 50%;
         justify-content: center;
         width: auto;
-        padding-top: 5%;
+        padding-top: 2%;
     }
 
     .container {
