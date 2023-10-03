@@ -1,0 +1,51 @@
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css');
+
+* {
+    font-family: 'IBM Plex Mono', monospace !important;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 17px;
+}
+
+.image {
+    padding-right: 3%;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.mobile {
+	margin-left: 17px;
+	margin-right: 17px;
+}
+
+.img {
+    width: 35%;
+    height: 100%;   
+}
+
+.social-text {
+    font-size: 24px;
+    gap: 12px;
+}
+
+.text-decoration{
+    color: #FF00FF;
+    font-weight: 700;
+}
+.text-decoration:hover{
+    color: #00ffff;
+    font-weight: 700;
+}
+.pink{
+    font-weight: 700;
+    color: #FF00FF;
+}
+
+.nav-text {
+    font-size: 28px;
+  }

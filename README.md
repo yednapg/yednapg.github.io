@@ -1,0 +1,1 @@
+A simple Next.JS Portfolio website of Gaurav! a high school senior from New Delhi, India. Say Hi! at: hi@pandeygaurav.com
