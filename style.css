@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  font-size: 17px;
+}
+
+.Page {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .Page {
+    width: 95%;
+  }
+}
