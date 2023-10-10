@@ -3,8 +3,8 @@ body {
   padding: 0;
   background-color: black;
   color: white;
-  font-family: monospace;
-  font-size: 17px;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 
 .Page {
@@ -12,6 +12,21 @@ body {
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+}
+
+.firstPageNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.firstPageNavBarText ul {
+  list-style-type: none;
+}
+
+.firstPageNavBarTextList {
+  display: flex;
+  gap: 20px;
 }
 
 a {
