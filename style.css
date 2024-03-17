@@ -1,93 +1,39 @@
+@media screen and (max-width: 600px) {
+  body {
+      font-size: 32px;
+  }
+}
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  font-size: 18px;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-  line-height: 1.3;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-.fMono {
-  font-family: monospace;
-}
-
-.fBold {
-  font-weight: bold;
-}
-
-.fBig {
-  font-size: 1.7rem;
-}
-
-.Page {
-  width: 800px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.DesktopOnly {
-  display: block;
-}
-
-.MobileOnly {
-  visibility: hidden;
-  position: absolute;
-  display: none;
-}
-
-.PageNavBarText {
   display: flex;
-  justify-content: space-between;
+  font-size: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
   align-items: center;
-  font-size: 20px;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: #000
 }
 
-.PageNavBarTextList {
+button {
+  color: rgb(0, 0, 0);
+  background-color: #000000;
+  border: 0px;
+  padding: 6px 12px
+}
+
+a {
+  color: #0000FF
+
+}
+
+b {
+  color: #0000FF
+
+}
+main {
+  max-width: 720px;
   display: flex;
-  gap: 20px;
-  list-style-type: none;
-}
+  flex-direction: column;
 
-.hide {
-  visibility: hidden;
-  display: none;
-}
-
-.blue {
-  color: cornflowerblue;
-  text-decoration: none;
-}
-
-.yellow {
-  color: lightgoldenrodyellow;
-  text-decoration: none;
-}
-
-a:hover {
-  color: grey;
-}
-
-@media (max-width: 800px) {
-  .Page {
-    width: 90%;
-  }
-  .MobileOnly {
-    visibility: visible;
-    display: flex;
-    position: relative;
-  }
-  .DesktopOnly {
-    visibility: hidden;
-    display: none;
-  }
 }
